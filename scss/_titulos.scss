@@ -1,0 +1,27 @@
+@keyframes cambioDeColor {
+    0%   { background-color: rgb(2, 8, 61); }
+    25%  { background-color:   rgb(10, 55, 114); }
+    50%  { background-color:  rgb(38, 101, 172); }
+    75%  { background-color: rgb(30, 91, 126); }
+    100% { background-color: rgb(2, 8, 61); }
+}
+
+.tituloPag {
+    animation-name: cambioDeColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.aab-tit-div {
+    animation-name: cambioDeColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-weight: 500;
+    padding: 3px;
+    text-align: center;
+    border-radius: 4px;
+}

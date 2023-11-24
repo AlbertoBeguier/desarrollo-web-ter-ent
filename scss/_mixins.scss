@@ -1,0 +1,13 @@
+@mixin mix_botones {
+    transition: all 900ms;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px rgb(5, 5, 54) solid;
+    padding: 8px;
+    border-radius: 7px;
+    margin: 10px;
+}

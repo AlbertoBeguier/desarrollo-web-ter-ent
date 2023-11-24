@@ -1,0 +1,56 @@
+/*logo responsive y animado*/
+.imag {
+    width: 20%;
+}
+
+@keyframes animacionLogo {
+    0% {
+        width: 0%;
+        /* Inicia con opacidad 0 */
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+.imag {
+    animation-name: animacionLogo;
+    animation-duration: 3s;
+}
+
+@media (max-width: 768px) {
+    @keyframes animacionLogo {
+        0% {
+            width: 0%;
+            /* Inicia con opacidad 0 */
+        }
+
+        100% {
+            width: 30%;
+        }
+    }
+
+    .imag {
+        width: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    @keyframes animacionLogo {
+        0% {
+            width: 0%;
+            /* Inicia con opacidad 0 */
+        }
+
+        100% {
+            width: 40%;
+        }
+    }
+
+    .imag {
+        width: 40%;
+    }
+}
+
+/*fin logo responsive y animado*/

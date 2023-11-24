@@ -1,0 +1,344 @@
+@charset "UTF-8";
+/* estilos botones navegacion*/
+.aabbotonnav {
+  transition: all 900ms;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px rgb(5, 5, 54) solid;
+  padding: 8px;
+  border-radius: 7px;
+  margin: 10px;
+  color: rgb(3, 2, 66);
+  border: 2px rgb(5, 5, 54) solid;
+  background-color: rgb(104, 204, 230);
+}
+.aabbotonnav:hover {
+  color: white;
+  background-color: rgb(10, 10, 58);
+  transform: scale(1.2, 1.2);
+}
+
+/* estilos botones navegacion*/
+/* estilos botones navegacion*/
+.aabbotonnav1 {
+  transition: all 900ms;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px rgb(5, 5, 54) solid;
+  padding: 8px;
+  border-radius: 7px;
+  margin: 10px;
+  color: black;
+  border: 2px rgb(5, 5, 54) solid;
+  background-color: rgb(236, 236, 236);
+}
+.aabbotonnav1:hover {
+  color: rgb(228, 228, 244);
+  background-color: rgb(55, 55, 55);
+  transform: scale(1.2, 1.2);
+}
+
+/* estilos botones navegacion*/
+/*logo responsive y animado*/
+.imag {
+  width: 20%;
+}
+
+@keyframes animacionLogo {
+  0% {
+    width: 0%;
+    /* Inicia con opacidad 0 */
+  }
+  100% {
+    width: 20%;
+  }
+}
+.imag {
+  animation-name: animacionLogo;
+  animation-duration: 3s;
+}
+
+@media (max-width: 768px) {
+  @keyframes animacionLogo {
+    0% {
+      width: 0%;
+      /* Inicia con opacidad 0 */
+    }
+    100% {
+      width: 30%;
+    }
+  }
+  .imag {
+    width: 30%;
+  }
+}
+@media (max-width: 576px) {
+  @keyframes animacionLogo {
+    0% {
+      width: 0%;
+      /* Inicia con opacidad 0 */
+    }
+    100% {
+      width: 40%;
+    }
+  }
+  .imag {
+    width: 40%;
+  }
+}
+/*fin logo responsive y animado*/
+@keyframes cambioDeColor {
+  0% {
+    background-color: rgb(2, 8, 61);
+  }
+  25% {
+    background-color: rgb(10, 55, 114);
+  }
+  50% {
+    background-color: rgb(38, 101, 172);
+  }
+  75% {
+    background-color: rgb(30, 91, 126);
+  }
+  100% {
+    background-color: rgb(2, 8, 61);
+  }
+}
+.tituloPag {
+  animation-name: cambioDeColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.aab-tit-div {
+  animation-name: cambioDeColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: white;
+  font-weight: 500;
+  padding: 3px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.centralEnlaces a {
+  color: rgb(104, 204, 230);
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 2px rgb(104, 204, 230) solid;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(3, 8, 51);
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  transition: color 2s, border 3s, background-image 2s, box-shadow 2s;
+}
+.centralEnlaces a:hover, .centralEnlaces a:focus {
+  color: black;
+  border: 2px black solid;
+  background-image: radial-gradient(circle, rgb(104, 204, 230), white);
+  box-shadow: 4px 4px 8px rgba(7, 7, 7, 0.719);
+}
+@media (max-width: 600px) {
+  .centralEnlaces a {
+    padding: 5px;
+    margin: 15px;
+    font-size: 0.9em;
+  }
+}
+
+/*super indice footer*/
+.ind {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  background-image: radial-gradient(circle, black, rgb(82, 78, 78), rgb(119, 116, 116));
+}
+
+/* fondo navegación*/
+.aab-nav {
+  background-color: white;
+}
+
+.centralIndex {
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.aab-contenedor-carousel {
+  padding: 20px;
+}
+
+.aab-bg-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #bcbcbc;
+}
+
+.aab-tit-div1 {
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #bcbcbc;
+  padding: 1%;
+}
+
+.aab-dolar {
+  margin: 10px;
+  padding: 10px;
+}
+
+.tituloPagNot {
+  color: rgb(2, 8, 61);
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(104, 204, 230);
+  margin: 10px;
+}
+
+.notice {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px 0px 0px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.aab-text-notice h5,
+.aab-text-notice p {
+  text-shadow: 2px 2px 4px #000;
+}
+
+.cripto {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cripto1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle, rgb(104, 204, 230), white);
+  margin: 10px 20px 10px 20px;
+  padding: 50px 0px 50px 0px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #bcbcbc;
+}
+
+/*párrafo qs*/
+.parrQuienesSomos {
+  text-align: justify;
+  width: 100%;
+}
+
+/*tit qs*/
+.titQuienesSomos {
+  color: rgb(10, 5, 143);
+  text-align: justify;
+}
+
+.qSdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textoRes {
+  color: orangered;
+  font-weight: bold;
+}
+
+/* cambia el tamaño del formulario*/
+.anchoContacto {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .anchoContacto {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+/* fin cambia el tamaño del formulario*/
+.centralContacto {
+  color: white;
+  font-size: larger;
+  background-color: rgb(4, 4, 48);
+  margin: 10px;
+}
+
+.formulario {
+  text-align: center;
+  padding: 50px;
+}
+
+.divNoticias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.parrNoticias {
+  color: white;
+  font-weight: 100;
+  text-align: justify;
+  background-color: rgb(4, 4, 48);
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.imagen-flotante {
+  width: 15%;
+  float: left;
+  /* La imagen flotará a la izquierda del texto */
+  padding: 10px;
+}
+
+.boton-contacto {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
+  gap: 10px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

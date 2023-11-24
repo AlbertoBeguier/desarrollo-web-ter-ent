@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Somos expertos contadores, consultores financieros dedicados a ofrecer soluciones estratégicas para optimizar tu situación fiscal, impulsar el crecimiento empresarial y brindar asesoramiento experto en gestión financiera. Descubre cómo podemos potenciar tu éxito económico">
+    <meta name="keywords"
+        content="consultoría contable Argentina, servicios financieros, auditoría en Argentina, asesoría fiscal, consultoría empresarial, gestión financiera, contabilidad, finanzas corporativas, auditoría interna, consultoría de negocios en Argentina">
+    <title>Consulting SA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!--BS NAVBAR-->
+    <header class="navbar navbar-expand-lg sticky-top aab-nav">
+        <nav class="container-fluid aab-nav">
+            <img class="imag" src="img/logoconsulting.jpg" alt="logo" width="350px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  aabbotonnav" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link aabbotonnav" href="html/quienesSomos.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link aabbotonnav" href="html/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link aabbotonnav1" href="html/login.html">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link aabbotonnav" href="html/enlaces.html">Enlaces</a>
+                    </li>
+            </div>
+        </nav>
+    </header>
+    <!--BS NAVBAR FIN-->
+
+    <main class="row centralIndex">
+        <!--BS CARROUSEL-->
+        <div class="aab-contenedor-carousel row container-fluid">
+            <div class="col-md-12 col-lg-8 aab-bg-carousel carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner container-fluid">
+                    <div class="carousel-item active" data-bs-interval="7000">
+                        <img src="img/mervalap.jpg" class="w-100 d-block" alt="merval">
+                        <div class="text-center d-md-block aab-text-notice">
+                            <h5>AS&P Merval en modo montaña rusa</h5>
+                            <p>Hasta la elección voló 40%, pero en pocos días borró toda la suba...</p>
+                            <a class="btn btn-secondary" href="html/noticias.html#Noticia1" role="button">Noticia
+                                completa</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="7000">
+                        <img src="img/preocupaap.jpg" class="w-100 d-block" alt="nvidia">
+                        <div class="text-center d-md-block  aab-text-notice">
+                            <h5>Acciones de Nvidia en baja</h5>
+                            <p>Nvidia ha caído un 4,68% en Wall Street...</p>
+                            <a class="btn btn-secondary" href="html/noticias.html#Noticia2" role="button">Noticia
+                                completa</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="7000">
+                        <img src="img/pesosap.jpg" class="w-100 d-block" alt="pesos">
+                        <div class="text-center d-md-block aab-text-notice">
+                            <h5>Efecto inflación</h5>
+                            <p>Estiman que el poder de compra de la población caerá 14% respecto de 2022...</p>
+                            <a class="btn btn-secondary" href="html/noticias.html#Noticia3" role="button">Noticia
+                                completa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TradingView Widget BEGIN -->
+            <div class=" col-md-12 col-lg-4 aab-tit-div1">
+                <p class="text-center aab-tit-div">Cotizaciones en tiempo real de divisas comparadas</p>
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-forex-cross-rates.js" async>
+                        {
+                            "width": "100%",
+                                "height": "87%",
+                                    "currencies": [
+                                        "EUR",
+                                        "USD",
+                                        "JPY",
+                                        "GBP",
+                                        "CHF",
+                                        "AUD",
+                                        "CAD",
+                                        "NZD"
+                                    ],
+                                        "isTransparent": true,
+                                            "colorTheme": "light",
+                                                "locale": "es"
+                        }
+                    </script>
+            </div>
+        </div>
+        <!-- TradingView Widget END -->
+        <!--DOLAR-->
+        <div class="aab-dolar row">
+            <div class="container-fluid col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <iframe class="container-fluid"
+                    style="width:100%;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc"
+                    src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0"></iframe>
+            </div>
+            <div class="container-fluid col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <iframe class="container-fluid"
+                    style="width:100%;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc"
+                    src="https://dolarhoy.com/i/cotizaciones/dolar-bancos-y-casas-de-cambio" frameborder="0"></iframe>
+            </div>
+            <div class="container-fluid col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <iframe class="container-fluid"
+                    style="width:100%;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc"
+                    src="https://dolarhoy.com/i/cotizaciones/dolar-mep" frameborder="0"></iframe>
+            </div>
+            <div class="container-fluid col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <iframe class="container-fluid"
+                    style="width:100%;height:260px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc"
+                    src="https://dolarhoy.com/i/cotizaciones/dolar-contado-con-liquidacion" frameborder="0"></iframe>
+            </div>
+        </div>
+        <!-- TradingView Widget BEGIN -->
+        <div class="cripto">
+            <div class="cripto1">
+                <div class="tradingview-widget-container__widget"></div>
+                <script type="text/javascript"
+                    src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                        {
+                            "width": "1000",
+                                "height": "490",
+                                    "defaultColumn": "overview",
+                                        "screener_type": "crypto_mkt",
+                                            "displayCurrency": "USD",
+                                                "colorTheme": "light",
+                                                    "locale": "es",
+                                                        "isTransparent": true
+                        }
+                    </script>
+            </div>
+        </div>
+        <!-- TradingView Widget END -->
+    </main>
+    <footer>
+        <p>2023 A<span class="ind">2</span>B Systems - Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
