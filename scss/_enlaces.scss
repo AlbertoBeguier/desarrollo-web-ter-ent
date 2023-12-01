@@ -1,29 +1,30 @@
 .centralEnlaces a {
-    color: $color-secundario;
-    text-transform: uppercase;
-    font-weight: 500;
-    border: 2px $color-secundario solid;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: $color-az;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    transition: color 2s, border 3s, background-image 2s, box-shadow 2s; // Añadido box-shadow a la transición
+  color: $color-secundario;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 2px $color-secundario solid;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $color-az;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  transition: color 2s, border 3s, background-image 2s, box-shadow 2s; // Añadido box-shadow a la transición
 
-    &:hover, &:focus {
-        color: $color-hover; // Cambia al color deseado para hover y focus
-        border: 2px $color-hover solid;
-        background-image: radial-gradient(circle, $color-secundario, white);
-        box-shadow: 04px 4px 8px rgba(7, 7, 7, 0.719); // Efecto de sombra en hover
-    }
+  &:hover,
+  &:focus {
+    color: $color-hover; // Cambia al color deseado para hover y focus
+    border: 2px $color-hover solid;
+    background-image: radial-gradient(circle, $color-secundario, white);
+    box-shadow: 04px 4px 8px rgba(7, 7, 7, 0.719); // Efecto de sombra en hover
+  }
 
-    @media (max-width: 600px) {
-        padding: 5px;
-        margin: 15px;
-        font-size: 0.9em; // Ajusta el tamaño de la fuente en pantallas pequeñas si es necesario
-    }
+  @media (max-width: 600px) {
+    padding: 5px;
+    margin: 15px;
+    font-size: 0.9em; // Ajusta el tamaño de la fuente en pantallas pequeñas si es necesario
+  }
 }
