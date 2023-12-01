@@ -341,4 +341,17 @@ footer {
   gap: 10px;
 }
 
+.parrafo-login {
+  text-align: justify;
+  color: rgb(2, 8, 61);
+  text-indent: 15px;
+}
+
+.parrafo-enlaces {
+  text-align: justify;
+  color: rgb(2, 8, 61);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 /*# sourceMappingURL=estilo.css.map */
